@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_pbol_2020110052.InputPenitipanHewanController">
+   <children>
+      <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="34.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/USER/Downloads/dog-g1407c25cb_640.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="104.0" layoutY="53.0" text="ANIMAL" />
+      <Label layoutX="103.0" layoutY="65.0" lineSpacing="2.0" prefHeight="27.0" prefWidth="67.0" text="C A R E">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnReset" layoutX="270.0" layoutY="495.0" mnemonicParsing="false" onAction="#ResetKlik" prefHeight="31.0" prefWidth="80.0" text="Reset" />
+      <Label layoutX="100.0" layoutY="389.0" text="Total Bayar" />
+      <ChoiceBox fx:id="cbCustomer" layoutX="241.0" layoutY="292.0" prefHeight="31.0" prefWidth="260.0" />
+      <Label layoutX="99.0" layoutY="126.0" text="Penitipan ID" />
+      <Label fx:id="lblPenitipanId" layoutX="243.0" layoutY="126.0" text="#" />
+      <Button fx:id="btnSimpan" layoutX="170.0" layoutY="495.0" mnemonicParsing="false" onAction="#simpanKlik" prefHeight="31.0" prefWidth="80.0" text="Simpan" />
+      <Button fx:id="btnKeluar" layoutX="370.0" layoutY="495.0" mnemonicParsing="false" onAction="#keluarKlik" prefHeight="31.0" prefWidth="80.0" text="Keluar" />
+      <Label layoutX="99.0" layoutY="343.0" text="Tanggal Bayar" />
+      <TextField fx:id="txtWarna" layoutX="240.0" layoutY="383.0" prefHeight="31.0" prefWidth="260.0" />
+      <ChoiceBox fx:id="cbKelamin" layoutX="241.0" layoutY="247.0" prefHeight="31.0" prefWidth="260.0" />
+      <Label layoutX="99.0" layoutY="252.0" text="Nama Customer" />
+      <Label layoutX="99.0" layoutY="297.0" text="Kandang" />
+      <Label layoutX="99.0" layoutY="163.0" text="Tanggal Titip" />
+      <Label layoutX="99.0" layoutY="207.0" text="Tanggal Ambil" />
+      <Label layoutX="223.0" layoutY="88.0" text="FORM PENITIPAN HEWAN" underline="true" />
+      <DatePicker layoutX="240.0" layoutY="158.0" prefHeight="31.0" prefWidth="260.0" />
+      <DatePicker layoutX="240.0" layoutY="202.0" prefHeight="31.0" prefWidth="260.0" />
+      <DatePicker layoutX="240.0" layoutY="338.0" prefHeight="31.0" prefWidth="260.0" />
+      <Label layoutX="100.0" layoutY="431.0" text="Status Bayar" />
+      <ChoiceBox fx:id="cbCustomer1" layoutX="240.0" layoutY="426.0" prefHeight="31.0" prefWidth="260.0" />
+   </children>
+</AnchorPane>

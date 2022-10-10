@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_pbol_2020110052.DisplayKandangController">
+   <children>
+      <Label layoutX="93.0" layoutY="55.0" lineSpacing="2.0" prefHeight="27.0" prefWidth="67.0" text="C A R E">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="43.0" text="ANIMAL" />
+      <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="24.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/USER/Downloads/dog-g1407c25cb_640.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnSesudah" layoutX="441.0" layoutY="536.0" mnemonicParsing="false" onAction="#sesudahKlik" prefHeight="31.0" prefWidth="110.0" text="Sesudah" />
+      <Button fx:id="btnAkhir" layoutX="575.0" layoutY="536.0" mnemonicParsing="false" onAction="#akhirKlik" prefHeight="31.0" prefWidth="110.0" text="Akhir" />
+      <Button fx:id="btnKeluar" layoutX="575.0" layoutY="582.0" mnemonicParsing="false" onAction="#keluarKlik" prefHeight="31.0" prefWidth="110.0" text="Keluar" />
+      <Button fx:id="btnUbah" layoutX="441.0" layoutY="582.0" mnemonicParsing="false" onAction="#ubahKlik" prefHeight="31.0" prefWidth="110.0" text="Ubah" />
+      <Button fx:id="btnTambah" layoutX="135.0" layoutY="582.0" mnemonicParsing="false" onAction="#tambahKlik" prefHeight="31.0" prefWidth="110.0" text="Tambah" />
+      <Button fx:id="btnHapus" layoutX="269.0" layoutY="582.0" mnemonicParsing="false" onAction="#habisKlik" prefHeight="31.0" prefWidth="110.0" text="Hapus" />
+      <Button fx:id="btnSebelum" layoutX="269.0" layoutY="536.0" mnemonicParsing="false" onAction="#sebelumKlik" prefHeight="31.0" prefWidth="110.0" text="Sebelum" />
+      <Button fx:id="btnAwal" layoutX="135.0" layoutY="536.0" mnemonicParsing="false" onAction="#awalKlik" prefHeight="31.0" prefWidth="110.0" text="Awal" />
+      <Label layoutX="353.0" layoutY="88.0" text="DATA KANDANG" textAlignment="JUSTIFY" underline="true" />
+      <TableView fx:id="tbvKandang" layoutX="110.0" layoutY="118.0" prefHeight="400.0" prefWidth="600.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

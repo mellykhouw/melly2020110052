@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_pbol_2020110052.InputCustomeridController">
+   <children>
+      <Label fx:id="lblCustomer" layoutX="243.0" layoutY="128.0" text="#" />
+      <Label layoutX="99.0" layoutY="128.0" text="Customer ID" />
+      <Label layoutX="99.0" layoutY="260.0" text="Alamat" />
+      <Label layoutX="252.0" layoutY="88.0" text="FORM KANDANG" underline="true" />
+      <Label layoutX="100.0" layoutY="169.0" text="Nama Customer" />
+      <TextField fx:id="txtNamaCust" layoutX="242.0" layoutY="164.0" prefHeight="31.0" prefWidth="260.0" />
+      <TextField fx:id="txtNoTelfon" layoutX="241.0" layoutY="210.0" prefHeight="31.0" prefWidth="260.0" />
+      <Label layoutX="99.0" layoutY="215.0" text="No Telfon" />
+      <Button fx:id="btnKeluar" layoutX="370.0" layoutY="485.0" mnemonicParsing="false" onAction="#keluarKlik" prefHeight="31.0" prefWidth="80.0" text="Keluar" />
+      <Button fx:id="btnReset" layoutX="270.0" layoutY="485.0" mnemonicParsing="false" onAction="#ResetKlik" prefHeight="31.0" prefWidth="80.0" text="Reset" />
+      <Button fx:id="btnSimpan" layoutX="170.0" layoutY="485.0" mnemonicParsing="false" onAction="#simpanKlik" prefHeight="31.0" prefWidth="80.0" text="Simpan" />
+      <TextArea fx:id="txtAlamat" layoutX="242.0" layoutY="258.0" prefHeight="71.0" prefWidth="260.0" />
+      <Label layoutX="93.0" layoutY="55.0" lineSpacing="2.0" prefHeight="27.0" prefWidth="67.0" text="C A R E">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="43.0" text="ANIMAL" />
+      <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="24.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/USER/Downloads/dog-g1407c25cb_640.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

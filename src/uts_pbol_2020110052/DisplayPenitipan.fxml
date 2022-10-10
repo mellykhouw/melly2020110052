@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_pbol_2020110052.DisplayPenitipanController">
+   <children>
+      <TableView fx:id="tbvPenitipan" layoutX="100.0" layoutY="108.0" prefHeight="400.0" prefWidth="600.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Label layoutX="314.0" layoutY="78.0" text="DATA PENITIPAN HEWAN" textAlignment="JUSTIFY" underline="true" />
+      <Button fx:id="btnAwal" layoutX="125.0" layoutY="526.0" mnemonicParsing="false" onAction="#awalKlik" prefHeight="31.0" prefWidth="110.0" text="Awal" />
+      <Button fx:id="btnSebelum" layoutX="259.0" layoutY="526.0" mnemonicParsing="false" onAction="#sebelumKlik" prefHeight="31.0" prefWidth="110.0" text="Sebelum" />
+      <Button fx:id="btnHapus" layoutX="259.0" layoutY="572.0" mnemonicParsing="false" onAction="#habisKlik" prefHeight="31.0" prefWidth="110.0" text="Hapus" />
+      <Button fx:id="btnTambah" layoutX="125.0" layoutY="572.0" mnemonicParsing="false" onAction="#tambahKlik" prefHeight="31.0" prefWidth="110.0" text="Tambah" />
+      <Button fx:id="btnUbah" layoutX="431.0" layoutY="572.0" mnemonicParsing="false" onAction="#ubahKlik" prefHeight="31.0" prefWidth="110.0" text="Ubah" />
+      <Button fx:id="btnKeluar" layoutX="565.0" layoutY="572.0" mnemonicParsing="false" onAction="#keluarKlik" prefHeight="31.0" prefWidth="110.0" text="Keluar" />
+      <Button fx:id="btnAkhir" layoutX="565.0" layoutY="526.0" mnemonicParsing="false" onAction="#akhirKlik" prefHeight="31.0" prefWidth="110.0" text="Akhir" />
+      <Button fx:id="btnSesudah" layoutX="431.0" layoutY="526.0" mnemonicParsing="false" onAction="#sesudahKlik" prefHeight="31.0" prefWidth="110.0" text="Sesudah" />
+      <ImageView fitHeight="64.0" fitWidth="69.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/USER/Downloads/dog-g1407c25cb_640.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="84.0" layoutY="33.0" text="ANIMAL" />
+      <Label layoutX="83.0" layoutY="45.0" lineSpacing="2.0" prefHeight="27.0" prefWidth="67.0" text="C A R E">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
